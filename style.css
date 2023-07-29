@@ -1,0 +1,162 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 700;
+  box-sizing: border-box;
+}
+html{
+  font-size: 62.5%;
+}
+
+header {
+  width: 100%;
+  height: 30rem;
+}
+.po {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #f1f4fa;
+}
+.top {
+  padding: .5rem;
+  margin-left: 130rem;
+  color: #0d61a4;
+}
+
+.middle {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #f1f4fa;
+}
+.search {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem;
+  background-color: #f1f4fa;
+}
+.search select {
+  padding: 1rem;
+  font-size: 2rem;
+  width: 20rem;
+  color: #0d61a4;
+  border: none;
+  border-radius: .5rem;
+}
+
+.search input {
+  padding: 1rem;
+  font-size: 2rem;
+  width: 80rem;
+  border: none;
+  border-radius: .5rem;
+}
+
+.search button {
+  padding: 1rem;
+  padding-right: 2rem;
+  font-size: 2rem;
+  background-color: #0d61a4;
+  color: white;
+  border: none;
+  border-radius: .5rem;
+  cursor: pointer;
+}
+.cards {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin: 0 10rem 0 10rem;
+}
+.card {
+  box-shadow: 0 .4rem .8rem 0 rgba(0, 0, 0, 0.2);
+  transition: 0.3s;
+  width: 30rem;
+  height: 40rem;
+  margin: 1rem;
+  border-radius: 1rem;
+  background-color: #eff7fd;
+  cursor: pointer;
+}
+
+.card img {
+  width: 10rem;
+  height: 10rem;
+  border-radius: 1rem 1rem 0 0 ;
+  border-bottom: .4rem solid rgb(130, 16, 16);
+  
+}
+.card:hover {
+  box-shadow: 0 .8rem 1.6rem 0 rgba(0, 0, 0, 0.2);
+}
+.container {
+  padding: .2rem 1.6rem;
+}
+.container p{
+  color: #0d61a4;
+  margin: 1rem;
+  font-size: 1.3rem;
+}
+
+.container h1{
+  font-family: 'Oswald', sans-serif;
+  font-size: 2.5rem;
+}
+.container a{
+  text-decoration: none;
+  color: black;
+}
+.rect{
+  width: 100%;
+  height: 7rem;
+  background-color:blanchedalmond;
+  color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 1.5rem;
+  font-size: 1.5rem;
+}
+
+.rect strong{
+  font-weight: 900;
+
+}
+
+.foot{
+  margin-top: 4rem;
+  width: 100%;
+  height: 18rem;
+  background-color:#eff7fd;
+  display: flex;
+  flex-direction: column;
+}
+
+.foot img{
+  padding: 0 0 0 15rem;
+  width: 35rem;
+  height: 9rem;
+  
+}
+.gh{
+  display: flex;
+  flex-direction: row;
+  padding-left: 15rem;
+}
+.gh p{
+  padding: 1rem;
+  color: #0d61a4;
+}
+
+.end{
+  display: flex;
+  justify-content: center;
+  align-items: end;
+  bottom: 0;
+}
+.end p{
+  font-size: small;
+}
